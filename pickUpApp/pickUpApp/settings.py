@@ -70,6 +70,10 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'pickUpApp.wsgi.application'
 
+TEMPLATE_PATH = os.path.join(BASE_DIR, 'templates')
+TEMPLATE_DIRS = (
+    TEMPLATE_PATH,
+    )
 
 # Database
 # https://docs.djangoproject.com/en/1.10/ref/settings/#databases
