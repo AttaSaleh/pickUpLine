@@ -55,8 +55,7 @@ ROOT_URLCONF = 'pickUpApp.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
-        'APP_DIRS': True,
+        'DIRS': [os.path.join(BASE_DIR, 'templates')],
         'OPTIONS': {
             'context_processors': [
                 'django.template.context_processors.debug',
@@ -70,10 +69,6 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'pickUpApp.wsgi.application'
 
-TEMPLATE_PATH = os.path.join(BASE_DIR, 'templates')
-TEMPLATE_DIRS = (
-    TEMPLATE_PATH,
-    )
 
 # Database
 # https://docs.djangoproject.com/en/1.10/ref/settings/#databases
