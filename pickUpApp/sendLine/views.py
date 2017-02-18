@@ -7,4 +7,4 @@ from models import PickUpLine
 def index(request):
 	#line = PickUpLine.objects.get()
 
-	return render(request,'index.html')
+	return render(request,'sendLine/lol.html',{})
