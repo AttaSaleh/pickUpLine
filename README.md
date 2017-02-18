@@ -4,4 +4,4 @@ Ash, to find the files you need look at the HTML and the CSS file. We are using 
 
 
 
-small changes
+smaller changes
