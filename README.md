@@ -1,7 +1,9 @@
 A simple Django app that returns a pick-up line.
 
-Ash, to find the files you need look at the HTML and the CSS file. We are using bootstrap so make sure to read up on it.
+Things to do:
+	
+	Make sure we fix up the HTML/CSS (Ash is in charge)
+	Add the database to the app (Axl is in charge)
 
 
 
-smaller changes
