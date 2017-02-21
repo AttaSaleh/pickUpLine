@@ -38,4 +38,4 @@ ehthumbs.db
 Thumbs.db
 *.pyc
 *.pyo
-.test/
+test/
